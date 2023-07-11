@@ -26,6 +26,7 @@ header{
     background-color: #f1224fce;
     border: 2px solid rgb(0, 180, 252);
     border-radius: 5px;
+    transition: all ease-in 0.4s;
 }
 .navbar ul li{
     height: 30px;
