@@ -244,6 +244,7 @@ header{
     border: none;
     border-radius: 8px;
     margin-right: 20px;
+    box-shadow: -3px 3px 10px rgba(128, 128, 118, 0.247);
 }
 .input-area > input::placeholder{
     padding-left:25px;
