@@ -218,7 +218,7 @@ header{
     margin-top: 130px;
     width: 1440px;
     height: 450px;
-    background-image: url(../Rectangle\ 9.png);
+    background-image: url("../Rectangle\ 9.png");
     margin-left: 232px;
 }
 .subscription-section-header{
@@ -245,9 +245,12 @@ header{
     border-radius: 8px;
     margin-right: 20px;
     box-shadow: -3px 3px 10px rgba(128, 128, 118, 0.247);
+    font-size: 20px;
+    font-weight: 400;
 }
 .input-area > input::placeholder{
     padding-left:25px;
+    font-size: 20px;
 }
 .primary-btn-2{
     height: 60px;
