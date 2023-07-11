@@ -99,7 +99,7 @@ header{
 .feature-title{
     font-size: 40px;
     font-weight: 800;
-    color: #272727;;
+    color: #272727;
 }
 .feature-description{
     font-size: 18px;
@@ -112,47 +112,44 @@ header{
     align-items: center;
     justify-content: center;
 }
-.image-description{
-    display: flex;
-    gap: 300px;
-    margin-left: 380px;
+.feature-img-description{
+    text-align: center;
     margin-top: 30px;
     font-size: 25px;
     font-weight: 800;
     text-decoration: underline;
 }
 
-.f-image-1{
+.feature-img-1{
     width: 464px;
     height: 538px;
     margin-top: 50px;
     background-color:rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
+.feature-img-1 > img{
+    margin: 110px 78px 0px 75px
+}
 
-.f-image-2{
+.feature-img-2{
     width: 464px;
     height: 538px;
     margin-top: 50px;
     background-color:rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
-.f-image-3{
+.feature-img-2 > img{
+    margin: 115px 47px 50px 45px;
+}
+
+.feature-img-3{
     width: 464px;
     height: 538px;
     margin-top: 50px;
     background-color:rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
 }
-.f-image-1 > img{
-    height:430px ;
-    width: 312px;
-    margin: 110px 78px;
- }
-.f-image-2 > img{
-    margin:120px 50px 50px 50px ;
-}
-.f-image-3 > img{
+.feature-img-3 > img{
     margin:68px 75px 0px 75px ;
 }
 /* feature section end */
